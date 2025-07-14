@@ -7,30 +7,30 @@ function App() {
     <>
       {/* menu of the website */}
       <div className="bg-component">
-        <menu className="flex flex-row w-fit m-auto gap-10 mt-8 text-2xl font-serif p-4 rounded-4xl bg-[#45403e] text-[#082a2a]">
+        <menu className="flex flex-row w-fit mx-auto gap-8 mt-8 px-8 py-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 shadow-xl">
           <a
             href="#"
-            className=" hover:text-[#0b3b3b] hover:scale-110 transition-all duration-400 ease-out"
+            className="text-white font-medium px-4 py-2 rounded-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 ease-out"
           >
-            home
+            Home
           </a>
           <a
             href="#"
-            className=" hover:text-[#0b3b3b] hover:scale-110 transition-all duration-400 ease-out"
+            className="text-white font-medium px-4 py-2 rounded-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 ease-out"
           >
-            about us
+            About Us
           </a>
           <a
             href="#"
-            className=" hover:text-[#0b3b3b] hover:scale-110 transition-all duration-400 ease-out"
+            className="text-white font-medium px-4 py-2 rounded-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 ease-out"
           >
-            company members
+            Company Members
           </a>
           <a
             href="#"
-            className=" hover:text-[#0b3b3b] hover:scale-110 transition-all duration-400 ease-out"
+            className="text-white font-medium px-4 py-2 rounded-lg hover:bg-white/20 hover:scale-105 transition-all duration-300 ease-out"
           >
-            products
+            Products
           </a>
         </menu>
       </div>
