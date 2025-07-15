@@ -40,7 +40,7 @@ function App() {
         </h1>
         {/* cards */}
         <div className="m-auto w-fit mt-12 font-serif  text-center">
-          <p className="text-4xl text-white">Company members</p>
+          <p className="text-4xl text-white">Company cards</p>
           <div className="mt-5 grid grid-cols-3 gap-20 ">
             <CardTitleExample />
             <CardTitleExample />
