@@ -13,6 +13,7 @@
     "@coreui/coreui": "^5.4.1",
     "@coreui/react": "^5.7.1",
     "@tailwindcss/vite": "^4.1.11",
+    "ldrs": "^1.1.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.11"
