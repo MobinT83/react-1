@@ -1,6 +1,7 @@
 // import { useState } from "react";
 
 import "./index.css";
+import { CardTitleExample } from "./components/card";
 
 function App() {
   return (
@@ -33,10 +34,19 @@ function App() {
             Products
           </a>
         </menu>
-        <h1 className="border-b-2 border-white/20 text-center text-4xl font-bold mt-14">
+        <h1 className="border-b-2 border-white/20 text-center text-4xl font-bold mt-14 font-serif">
           <span className=" text-white/10">Codeland </span>
           web design company
         </h1>
+        {/* cards */}
+        <div className="m-auto w-fit mt-12 font-serif  text-center">
+          <p className="text-4xl text-white">Company members</p>
+          <div className="mt-5 grid grid-cols-3 gap-20 ">
+            <CardTitleExample />
+            <CardTitleExample />
+            <CardTitleExample />
+          </div>
+        </div>
       </div>
     </>
   );
