@@ -2,6 +2,7 @@
 
 import "./index.css";
 import { CardTitleExample } from "./components/card";
+import { Loader } from "./components/loader";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Loader />
     </>
   );
 }
