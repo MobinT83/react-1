@@ -33,6 +33,10 @@ function App() {
             Products
           </a>
         </menu>
+        <h1 className="border-b-2 border-white/20 text-center text-4xl font-bold mt-14">
+          <span className=" text-white/10">Codeland </span>
+          web design company
+        </h1>
       </div>
     </>
   );
